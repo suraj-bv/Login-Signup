@@ -108,12 +108,10 @@
 </head>
 <body>
     <div class="layout-container">
-        <!-- Image Section -->
         <div class="image-container">
             <img src="{{ url_for('static', filename='img/loginimg.png') }}" alt="Image Not Available">
         </div>
 
-        <!-- Login Card -->
         <div class="container">
             <h1>Log-In Form</h1>
             <form method="POST" action="{{ url_for('login') }}">
